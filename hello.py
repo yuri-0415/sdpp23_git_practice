@@ -4,6 +4,8 @@ def main(animal):
     aminal = "aminal"
     if aminal == "cat":
         print("Meow!")
+    elif animal == "dog":
+        print("Woof!")
     else:
         print("What does the " + aminal + " say?")
 
